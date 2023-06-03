@@ -89,6 +89,6 @@ local AimingTab = Window:CreateTab("Blox Fruits") --you can rename this tab to w
 
 local testSection = AimingTab:CreateSector("Script Hub", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
 
-testSection:AddButton("Anti Cheat 2", function(ClientLol)
+testSection:AddButton("Space Hub", function(ClientLol)
     loadstring(game:HttpGet("https://orbituniverse.com/spacehub"))()
 end)
