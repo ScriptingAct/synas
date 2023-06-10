@@ -25,8 +25,8 @@ testSection:AddButton("Orca", function(ClientLol)
     loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua"))()
 end)
 
-testSection:AddButton("Dark Dex", function(ClientLol)
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
+testSection:AddButton("DexV4", function(ClientLol)
+    loadstring(game:HttpGetAsync("https://gist.githubusercontent.com/DinosaurXxX/b757fe011e7e600c0873f967fe427dc2/raw/ee5324771f017073fc30e640323ac2a9b3bfc550/dark%2520dex%2520v4"))()
 end)
 
 testSection:AddButton("Inf Jump", function(ClientLol)
