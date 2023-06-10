@@ -29,6 +29,10 @@ testSection:AddButton("Dark Dex", function(ClientLol)
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Babyhamsta/RBLX_Scripts/main/Universal/BypassedDarkDexV3.lua", true))()
 end)
 
+testSection:AddButton("Inf Jump", function(ClientLol)
+    loadstring(game:HttpGet('https://pastebin.com/raw/bC97eAyR'))()
+end)
+
 local testSection = AimingTab:CreateSector("Blox Fruits Good Script", "left")  --you can  change the section code, for example "testsection" can be changed to "FunnyCoolSection" etc.
 
 testSection:AddButton("Zaque Hub", function(ClientLol)
